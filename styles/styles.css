@@ -1,0 +1,107 @@
+body {
+  font-family: "Merriweather", serif, "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin: 15px 50px;
+}
+
+.banner {
+  background-image: url("../assets/Banner\ Image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* height: 800px; */
+}
+
+.banner-content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10% 10%;
+  color: #fff;
+}
+
+.banner-subtitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* sale content goes here */
+
+.sale-box {
+  display: flex;
+  flex-direction: column;
+  /* font-family: Inter; */
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sale-offer {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.sale-text {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.categories {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sale-image {
+  width: 50%;
+}
+
+/* party section here */
+
+.party {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/party.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+  height: 600px;
+  padding-left: 10%;
+
+}
+
+.party-title {
+  width: 60%;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  /* font-style: normal; */
+  font-weight: 900;
+  /* line-height: 88px; 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  width: 70%;
+}
+
+.join {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
