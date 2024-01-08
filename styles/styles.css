@@ -1,7 +1,20 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
   font-family: "Merriweather", serif, "Inter", sans-serif;
-  /* margin: 0; */
+  margin: 0;
   padding: 0;
+  
+}
+
+main {
   margin: 15px 50px;
   background: #fff;
 }
@@ -294,4 +307,92 @@ body {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 10px;
+  margin-top: 5%;
+}
+
+.portfolio > .description {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 30%;
+}
+
+/* newsletter styles */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  margin-top: 10%;  
+}
+
+.slogan {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.news-description {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 15%;
+}
+
+.input-box {
+  display: flex;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 5%;
+}
+
+.email-input {
+  width: 100%;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #f00;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer styles */
+
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #070211;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-address {
+  width: 20%;
+}
+
+.number {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
 }
