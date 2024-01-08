@@ -1,6 +1,6 @@
 body {
   font-family: "Merriweather", serif, "Inter", sans-serif;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   margin: 15px 50px;
   background: #fff;
@@ -126,7 +126,7 @@ body {
     #fffffc 100%
   );
   background-blend-mode: multiply;
-  mix-blend-mode: lighten; 
+  mix-blend-mode: lighten;
 }
 
 .address {
@@ -164,24 +164,134 @@ body {
 }
 
 .offer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5% 5%;
-    gap: 5%;
+  display: flex;
+  align-items: center;
+  /* padding-left: 5%; */
 }
 
 .best-offer {
-    margin-right: 0;
+  margin-right: 0;
+  width: 60%;
+}
+
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.new-best-offer {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  /* padding: 0; */
+  margin: 5% auto;
+}
+
+.coming-soon {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
 }
 
 .ellipse {
-    outline: 10px solid #f00;
-    border-radius: 50%;
-    padding: 20px;
+  outline: 10px solid #f00;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 5%;
 }
 
 .ellipse-image {
-    width: 300px;
-    height: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+.happy-new-year {
+  padding-left: 5%;
+}
+
+/* discoutn seciton */
+
+.discount-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.discount-subheading {
+  color: 070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.discount-sale {
+  color: #070211;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.discount-description {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 15%;
+}
+
+.red-background {
+  width: 100%;
+}
+
+.discount-banner {
+  display: flex;
+  margin-top: 10%;
+  position: relative;
+  justify-content: right;
+  align-items: center;
+}
+
+.gift-box {
+  width: 50%;
+  position: absolute;
+  padding-top:15%;
+  padding-right: 40%;
+  background-color: transparent;
+}
+
+.shopping-girl-bg {
+  background-image: url("../assets/shopping-girl.png");
+  width: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.shopping-girl {
+  width: 300px;
+  height: auto;
+}
+
+/* portfolio related styles */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 10%;
+  gap: 0;
+}
+
+.portfolio > .subheading {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio > .heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
 }
