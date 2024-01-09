@@ -385,14 +385,44 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 5%;
 }
 
 .footer-address {
-  width: 20%;
+  width: 30%;
 }
 
 .number {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
+}
+
+.phone-web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+
+.footer hr {
+  width: 80%;
 }
